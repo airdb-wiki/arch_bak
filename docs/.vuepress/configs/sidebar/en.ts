@@ -20,24 +20,22 @@ export const sidebarEn: SidebarConfig = {
       ],
     },
   ],
-  '/advanced/': [
+  '/cap/': [
     {
-      text: 'Advanced',
+      text: 'CAP',
       children: [
-        '/advanced/architecture.md',
-        '/advanced/plugin.md',
-        '/advanced/theme.md',
+        '/cap/README.md',
       ],
     },
+  ],
+  '/desgin/': [
     {
-      text: 'Cookbook',
+      text: 'Desgin',
       children: [
-        '/advanced/cookbook/README.md',
-        '/advanced/cookbook/usage-of-client-config.md',
-        '/advanced/cookbook/adding-extra-pages.md',
-        '/advanced/cookbook/making-a-theme-extendable.md',
-        '/advanced/cookbook/passing-data-to-client-code.md',
-        '/advanced/cookbook/markdown-and-vue-sfc.md',
+        '/desgin/README.md',
+        '/desgin/tdd.md',
+        '/desgin/ddd.md',
+        '/desgin/hexagonal.md',
       ],
     },
   ],
@@ -54,23 +52,6 @@ export const sidebarEn: SidebarConfig = {
         '/reference/theme-api.md',
         '/reference/client-api.md',
         '/reference/node-api.md',
-      ],
-    },
-    {
-      text: 'Bundlers Reference',
-      collapsible: true,
-      children: ['/reference/bundler/vite.md', '/reference/bundler/webpack.md'],
-    },
-    {
-      text: 'Default Theme Reference',
-      collapsible: true,
-      children: [
-        '/reference/default-theme/config.md',
-        '/reference/default-theme/frontmatter.md',
-        '/reference/default-theme/components.md',
-        '/reference/default-theme/markdown.md',
-        '/reference/default-theme/styles.md',
-        '/reference/default-theme/extending.md',
       ],
     },
     {

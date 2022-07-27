@@ -18,20 +18,11 @@ export const navbarEn: NavbarConfig = [
     ],
   },
   {
-    text: 'Design Model',
-    children: [
-      {
-        text: 'DDD',
-        children: [
-          '/contributing.md',
-        ],
-      },
-      {
-        text: 'TDD',
-        children: [
-          '/contributing.md',
-        ],
-      },
-    ],
+    text: 'CAP',
+    link: '/cap/'
+  },
+  {
+    text: 'Desgin Model',
+    link: '/desgin/'
   },
 ]
