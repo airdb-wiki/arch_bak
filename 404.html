@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.61">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16x16.png"><link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32x32.png"><link rel="manifest" href="/manifest.webmanifest"><meta name="application-name" content="VuePress"><meta name="apple-mobile-web-app-title" content="VuePress"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="apple-touch-icon" href="/images/icons/apple-touch-icon.png"><link rel="mask-icon" href="/images/icons/safari-pinned-tab.svg" color="#3eaf7c"><meta name="msapplication-TileColor" content="#3eaf7c"><meta name="theme-color" content="#3eaf7c"><title>System Architecture</title><meta name="description" content="Make software  system stronger">
+    <link rel="preload" href="/arch/assets/style-e39df636.css" as="style"><link rel="stylesheet" href="/arch/assets/style-e39df636.css">
+    <link rel="modulepreload" href="/arch/assets/app-a247b1a9.js"><link rel="modulepreload" href="/arch/assets/framework-5866ffd3.js"><link rel="modulepreload" href="/arch/assets/404.html-60b35caa.js"><link rel="modulepreload" href="/arch/assets/404.html-87d54bd8.js"><link rel="prefetch" href="/arch/assets/index.html-1ce455f9.js" as="script"><link rel="prefetch" href="/arch/assets/index.html-087e0a52.js" as="script"><link rel="prefetch" href="/arch/assets/index.html-449d9f1f.js" as="script"><link rel="prefetch" href="/arch/assets/ddd.html-8831e2da.js" as="script"><link rel="prefetch" href="/arch/assets/hexagonal.html-59ddc136.js" as="script"><link rel="prefetch" href="/arch/assets/serverless.html-94ed9528.js" as="script"><link rel="prefetch" href="/arch/assets/tdd.html-5b65c90b.js" as="script"><link rel="prefetch" href="/arch/assets/mq.html-0e92be77.js" as="script"><link rel="prefetch" href="/arch/assets/index.html-b809455c.js" as="script"><link rel="prefetch" href="/arch/assets/index.html-6af19587.js" as="script"><link rel="prefetch" href="/arch/assets/index.html-84036480.js" as="script"><link rel="prefetch" href="/arch/assets/ddd.html-b7c13ddd.js" as="script"><link rel="prefetch" href="/arch/assets/hexagonal.html-1025fc13.js" as="script"><link rel="prefetch" href="/arch/assets/serverless.html-aace5320.js" as="script"><link rel="prefetch" href="/arch/assets/tdd.html-b2e1d2b8.js" as="script"><link rel="prefetch" href="/arch/assets/mq.html-811fab8b.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>That&#39;s a Four-Oh-Four.</blockquote><a href="/arch/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/arch/assets/app-a247b1a9.js" defer></script>
+  </body>
+</html>

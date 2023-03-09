@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-74454916","path":"/cap/","title":"CAP","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1658955308000,"contributors":[{"name":"deancn","email":"dean@airdb.com","commits":1}]},"filePathRelative":"cap/README.md"}');export{a as data};

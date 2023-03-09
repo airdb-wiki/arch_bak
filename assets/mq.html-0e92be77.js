@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-bd085ffa","path":"/mq/mq.html","title":"消息队列","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1658955958000,"contributors":[{"name":"deancn","email":"dean@airdb.com","commits":1}]},"filePathRelative":"mq/mq.md"}');export{e as data};
